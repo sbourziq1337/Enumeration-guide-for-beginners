@@ -25,23 +25,23 @@ Although all services running on the target system can be enumerated upon, there
 2. *__SMB__
 
 	* Just like NetBIOS, **Server Message Block (SMB)** is a protocol that allows applications and computers in a local network talk to each other. The only difference between them is that NetBIOS is an API whereas SMB is a protocol. Starting from Windows 2000, SMB which earlier ran on top of NetBIOS was made to operate on top of TCP and it got a dedicated port 445.
-	* It also enables network services like file, printer and device sharing. Enumerating SMB service can reveal information like host names, lists shares, checking for null session, users, operating system details, password policies, info groups and printers connected etc.  Learn how to perform [[SMB enumeration]]
+	* It also enables network services like file, printer and device sharing. Enumerating SMB service can reveal information like host names, lists shares, checking for null session, users, operating system details, password policies, info groups and printers connected etc.  Learn how to perform [SMB enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/SMB%20enumeration.md)
 
 3. *__NetBIOS__
 
-	* **NetBIOS** service allows programs and computers on a local area network to communicate with each other. These include services like files, printers and device shares. Enumerating NetBIOS can reveal information like list of computers in a specific domain, lists of shares, policies and Passwords etc. Learn how to perform [NetBIOS enumeration](https://www.hackercoolmagazine.com/netbios-enumeration-for-beginners/).
+	* **NetBIOS** service allows programs and computers on a local area network to communicate with each other. These include services like files, printers and device shares. Enumerating NetBIOS can reveal information like list of computers in a specific domain, lists of shares, policies and Passwords etc. Learn how to perform [NetBIOS enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/NetBIOS%20enumeration.md).
 
 4. *__NFS__
  
-	* **NFS** stands for “Network File System” and allows a system to share directories and files with others over a network. By using NFS, users and programs can access files on remote systems almost as if they were local files. It does this by mounting all, or a portion of a file system on a server. The portion of the file system that is mounted can be accessed by clients with whatever privileges are assigned to each file. Learn how to perform [[NFS enumetation]]
+	* **NFS** stands for “Network File System” and allows a system to share directories and files with others over a network. By using NFS, users and programs can access files on remote systems almost as if they were local files. It does this by mounting all, or a portion of a file system on a server. The portion of the file system that is mounted can be accessed by clients with whatever privileges are assigned to each file. Learn how to perform [NFS enumetation](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/NFS%20enumetation.md)
 
 5. __*DNS__
 
-	* The Domain Name System **(DNS)** is a hierarchical and decentralized naming system for computers, services, and other resources connected to a network. It associates different information with domain names assigned to each of the participating entities. Most prominently, it translates more easily memorized domain names to the numerical IP addresses needed for identifying computer services and devices with the underlying network protocols. Learn how to perform [[DNS enumeration]]
+	* The Domain Name System **(DNS)** is a hierarchical and decentralized naming system for computers, services, and other resources connected to a network. It associates different information with domain names assigned to each of the participating entities. Most prominently, it translates more easily memorized domain names to the numerical IP addresses needed for identifying computer services and devices with the underlying network protocols. Learn how to perform [DNS enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/DNS%20enumeration.md)
 
 6. *__SMTP__
 
-	* **Simple Mail Transfer Protocol (SMTP)** is a TCP/IP protocol that is used to send email. It is mostly used by email clients but most of the organizations have their own Email Servers to send mail. Enumerating SMTP Service can reveal the list of valid users on the SMTP Servers. Learn how to perform [[SMTP enumeration]].
+	* **Simple Mail Transfer Protocol (SMTP)** is a TCP/IP protocol that is used to send email. It is mostly used by email clients but most of the organizations have their own Email Servers to send mail. Enumerating SMTP Service can reveal the list of valid users on the SMTP Servers. Learn how to perform [SMTP enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/SMTP%20enumeration.md).
 
 7. *__IMAP/ POP3__
 
@@ -51,29 +51,29 @@ Although all services running on the target system can be enumerated upon, there
 		
 		Because POP was designed for temporary Internet connection, clients connect, retrieve messages, store them on the client, and finally delete them from the server. Clients also have the option to leave messages on the server. By contrast, IMAP was designed to normally leave all messages on the server allowing multiple client applications as online and offline modes
 
-	* Learn how to perform [[IMAP-POP3 enumeration]]
+	* Learn how to perform [IMAP-POP3 enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/IMAP-POP3%20enumeration.md)
 	
 8. *__SNMP__
 
-	* **Simple Network Management Protocol (SNMP)** is a protocol that is used to monitor and manage computer systems in the same network. Enumerating SNMP can reveal information about network resources like hosts, routes, shares, ARP tables, routing tables, etc. Learn how to perform SNMP enumeration. Learn how to perform [[SNMP enumeration]]
+	* **Simple Network Management Protocol (SNMP)** is a protocol that is used to monitor and manage computer systems in the same network. Enumerating SNMP can reveal information about network resources like hosts, routes, shares, ARP tables, routing tables, etc. Learn how to perform SNMP enumeration. Learn how to perform [SNMP enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/SNMP%20enumeration.md)
 
 9. __*MySQL
 
-	* ***MySQL** is an open-source relational database management system (**RBDMS**) that uses structured query language (**SQL**) for accessing and managing data. It is one of the most common widely used RDBMS in the world. Learn how to perform [[MySQL enumeration]]
+	* ***MySQL** is an open-source relational database management system (**RBDMS**) that uses structured query language (**SQL**) for accessing and managing data. It is one of the most common widely used RDBMS in the world. Learn how to perform [MySQL enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/MySQL%20enumeration.md)
 
 10. __*MSSQL
 
 	* **MS SQL** Server is a relational database management system **(RDBMS)** developed by Microsoft. This product is built for the basic function of storing retrieving data as required by other applications. It can be run either on the same computer or on another across a network. This tutorial explains some basic and advanced concepts of SQL Server such as how to create and restore data, create login and backup, assign permissions, etc. Each topic is explained using examples for easy understanding.
-	* Learn how to perform [[MSSQL enumeration]]
+	* Learn how to perform [MSSQL enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/MSSQL%20enumeration.md)
 
 11. __*SSH
 
-	* ***Secure Shell (SSH)** is a protocol used to securely connect to another computer over a network. It allows you to log into another computer, execute commands, and transfer files, all in a secure manner. This is because SSH encrypts your connection, making it difficult for hackers to intercept and understand the data being exchanged. Learn how to perform [[SSH enumeration]]
+	* ***Secure Shell (SSH)** is a protocol used to securely connect to another computer over a network. It allows you to log into another computer, execute commands, and transfer files, all in a secure manner. This is because SSH encrypts your connection, making it difficult for hackers to intercept and understand the data being exchanged. Learn how to perform [SSH enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/SSH%20enumeration.md)
 
 12. __*RDP 
 
 	* Remote Desktop Protocol (RDP) is a proprietary protocol developed by Microsoft which provides a user with a graphical interface to connect to another computer over a network connection.
 
-	* A user need to be part of the "Remote Desktop Users" in order to login to the host via RDP. learn how to [[RDP enumeration]]
+	* A user need to be part of the "Remote Desktop Users" in order to login to the host via RDP. learn how to [RDP enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/RDP%20enumeration.md)
 
 #  *__Happy Hacking! 🎩💻
