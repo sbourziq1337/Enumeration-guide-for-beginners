@@ -139,7 +139,7 @@ _GitHub Repo for static Host and Authentication keys_
 
 owever, the misconfiguration of this utility can lead to an easy foothold for attackers to compromise the service. An attacker can look for weak configurations like anonymous access and write permissions to gain unauthorized access to the running server.
 
-That’s what we are going to do today 😈. We will take advantage of an insecure **Rsync** service and obtain a shell with SSH. Learn how to perform [[Rsync enumeration]].
+That’s what we are going to do today 😈. We will take advantage of an insecure **Rsync** service and obtain a shell with SSH. Learn how to perform [Rsync enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/Rsync%20enumeration.md). 
 [How To Copy Files With Rsync Over SSH](https://www.digitalocean.com/community/tutorials/how-to-copy-files-with-rsync-over-ssh)
 ### Running a command over SSH with a key
 ---------------------------------------------
