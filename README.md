@@ -57,23 +57,23 @@ Although all services running on the target system can be enumerated upon, there
 
 	* **Simple Network Management Protocol (SNMP)** is a protocol that is used to monitor and manage computer systems in the same network. Enumerating SNMP can reveal information about network resources like hosts, routes, shares, ARP tables, routing tables, etc. Learn how to perform SNMP enumeration. Learn how to perform [SNMP enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/SNMP%20enumeration.md)
 
-9. __MySQL
+9. __MySQL__
 
 	* ***MySQL** is an open-source relational database management system (**RBDMS**) that uses structured query language (**SQL**) for accessing and managing data. It is one of the most common widely used RDBMS in the world. Learn how to perform [MySQL enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/MySQL%20enumeration.md)
 
-10. __MSSQL
+10. __MSSQL__
 
 	* **MS SQL** Server is a relational database management system **(RDBMS)** developed by Microsoft. This product is built for the basic function of storing retrieving data as required by other applications. It can be run either on the same computer or on another across a network. This tutorial explains some basic and advanced concepts of SQL Server such as how to create and restore data, create login and backup, assign permissions, etc. Each topic is explained using examples for easy understanding.
 	* Learn how to perform [MSSQL enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/MSSQL%20enumeration.md)
 
-11. __SSH
+11. __SSH__
 
 	* ***Secure Shell (SSH)** is a protocol used to securely connect to another computer over a network. It allows you to log into another computer, execute commands, and transfer files, all in a secure manner. This is because SSH encrypts your connection, making it difficult for hackers to intercept and understand the data being exchanged. Learn how to perform [SSH enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/SSH%20enumeration.md)
 
-12. __RDP 
+12. __RDP__ 
 
 	* Remote Desktop Protocol (RDP) is a proprietary protocol developed by Microsoft which provides a user with a graphical interface to connect to another computer over a network connection.
 
 	* A user need to be part of the "Remote Desktop Users" in order to login to the host via RDP. learn how to [RDP enumeration](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/RDP%20enumeration.md)
 
-#  *__Happy Hacking! 🎩💻
+#  *__Happy Hacking!__ 🎩💻
