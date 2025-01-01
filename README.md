@@ -10,6 +10,7 @@ Enumeration can reveal valuable information like Network shares, usernames and p
 
 ### __Which services can be enumerated?__
 ------------------------------------------
+![Tux, the Linux mascot](https://raw.githubusercontent.com/sbourziq1337/Enumeration-guide-for-beginners/refs/heads/main/Types%20of%20Enumeration.webp)
 
 ![Tux, the Linux mascot](https://github.com/sbourziq1337/Enumeration-guide-for-beginners/blob/main/map_protcol.png)
 
